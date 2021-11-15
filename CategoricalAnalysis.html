@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="styleSheet" href="styleSheet.css">
+		<title>Categorical Analysis</title>
+	</head>
+	<body>
+		<!--Title-->
+		<h1>Green Power Usage Among North American College Campuses</h1>
+
+		<!--Subtitle-->
+		<h3>Categorical Analysis</h3>
+
+		<!--Navbar with three pages-->
+		<div class="navbar">
+			<a href=MainPage.html>Home</a>
+			<a href=RankAnalysis.html>Rank Analysis</a>
+			<a href=CategoricalAnalysis.html>Categorical Analysis</a>
+			<a href=RegressionAnalysis.html>Regression Analysis</a>
+			<a href=EnvFactorAnalysis.html>Environmental Factor Analysis</a>
+			<a href=Sources.html>Sources</a>
+		</div>
+
+		<!--Embed code for the interactive graph made from Tableau Public-->
+		<div class='tableauPlaceholder' id='viz1636400706633' style='position: relative'>
+			<noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CityandStateObservations&#47;StateFrequency&#47;1_rss.png' style='border: none' /></a></noscript>
+			<object class='tableauViz' style='display:none;'>
+				<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+				<param name='embed_code_version' value='3' /> 
+				<param name='site_root' value='' />
+				<param name='name' value='CityandStateObservations&#47;StateFrequency' />
+				<param name='tabs' value='yes' /><param name='toolbar' value='yes' />
+				<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CityandStateObservations&#47;StateFrequency&#47;1.png' /> 
+				<param name='animate_transition' value='yes' />
+				<param name='display_static_image' value='yes' />
+				<param name='display_spinner' value='yes' />
+				<param name='display_overlay' value='yes' />
+				<param name='display_count' value='yes' />
+				<param name='language' value='en-US' />
+			</object></div>
+			<script type='text/javascript'> var divElement = document.getElementById('viz1636400706633'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.25)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); </script>
+
+		<!--Paragraph describing and analyzing above chart-->
+		<div id="paragraph"><p>
+		The two categorical variables we analyzed were the state and city in which the college was located.
+		To model the frequency of each state and city, a table of dates was generated to catch all of the unique dates that data was collected on. 14 unique dates were found. Using this information, data was then partitioned into sub-datasets were the frequency of each state and city of a college could be found. <br>
+		On average, a state appeared in a given time interval 2 (1.741667) times, with a standard deviation of approximately 1 (0.9809553). Using this 
+		information, the State Frequency figure models the top five states that showed up in our dataset. To be considered, states had to show up at a minimum of 1 standard deviation away from the average frequency. <br>
+		The City Frequency figure is modeled very similarly. On average, a city appeared in our dataset up ~1 (1.222222) time, given the respective time 
+		interval, with a standard deviation of 0.6153251, which was rounded up to 1. Our top five cities are cities that appeared in our dataset 1 standard deviation away from the average, which happens to be 2 times. <br>
+		<br>
+
+			From these models we can conclude that colleges located in the following states and cities utilize more green power:<br>
+			<br>
+				• States:<br>
+					o	Pennsylvania<br>
+					o	DC<br>
+					o	New York<br>
+					o	Illinois<br>
+					o	Texas<br>
+					<br>
+				•	Cities:<br>
+					o	Washington<br>
+					o	Pittsburgh<br>
+					o	Philadelphia<br>
+
+		</p></div>
+
+    	<!--Footer-->
+		<div class="footer">
+			<div class="footer_content">
+        		<h2>2021</h2>
+        		<h2>Kalamazoo College</h2>
+        	</div>
+    	</div>
+	</body>
+</html>

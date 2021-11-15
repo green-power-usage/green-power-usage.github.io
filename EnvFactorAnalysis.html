@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<link rel="styleSheet" href="styleSheet.css">
+		<title>Environmental Factor Analysis</title>
+	</head>
+	<body>
+		
+		<!--Title-->
+		<h1>Green Power Usage Among North American College Campuses</h1>
+
+		<!--Subtitle-->
+		<h3>Environmental Factor Analysis</h3>
+
+		<!--Navbar with three pages-->
+		<div class="navbar">
+			<a href=MainPage.html>Home</a>
+			<a href=RankAnalysis.html>Rank Analysis</a>
+			<a href=CategoricalAnalysis.html>Categorical Analysis</a>
+			<a href=RegressionAnalysis.html>Regression Analysis</a>
+			<a href=EnvFactorAnalysis.html>Environmental Factor Analysis</a>
+			<a href=Sources.html>Sources</a>
+		</div>
+
+		<!--Graph made in R studio ranking green percentage vs sunlight hours for solar and wind power-->
+		<center><div><img src="Green Percentage vs Sunlight Hours.png" alt="Failed to display image" width="1000" height="500"</div></div></center>
+
+		<!--Graph made in R studio ranking green percentage vs sunlight hours for only solar power-->
+		<center><div><img src="Green Percentage vs Sunlight Hours (solar only).png" alt="Failed to display image" width="1000" height="500"</div></div></center>
+
+		<!--Paragraph for the above graph-->
+		<center><div id="paragraph"><p>
+			This graph shows the percent of energy that comes from green power for colleges that only have solar power and wind as a green power source vs sunlight hours for the respective college towns. The blue line represents the “curve of best fit” for the data. Intriguingly enough, one would expect colleges in towns with more sunlight hours to be able to rely more on solar power, but two different correlation tests indicated that the relationship was negative, although  wind power as a second source could explain a weaker negative correlation.
+		</p></div></center>
+
+		<!--ranking graph made from R for the top 5 ranks-->
+    	<center><div><img src="Top 5 Greenness over time.png" alt="Failed to display image" width="1000" height="500"></div></center>
+
+    	<!--Description of the above graph-->
+    	<center><div id="paragraph"><p>
+    		For the graph above, the colleges ranked 3rd through 5th place saw the largest increase in percentage of energy usage deriving from green power sources. Coincidentally, both were among the southernmost colleges we came across.
+    	</p></div></center>
+
+    	<!--ranking graph made from R for ranks 6-10-->
+    	<center><div><img src="6-10 Greenness over time.png" alt="Failed to display image" width="1000" height="500"></div></center>
+
+    	<!--Description of the above graph-->
+    	<center><div id="paragraph"><p>
+    		For colleges in 6th through 10th place, all but two colleges saw a net increase in green power percentage.
+    	</p></div></center>
+
+    	<!--ranking graph made from R for ranks 11-15-->
+    	<center><div><img src="11-15 Greenness over time.png" alt="Failed to display image" width="1000" height="500"></div></center>
+
+    	<!--Description of the above graph-->
+    	<center><div id="paragraph"><p>
+    		Only Northwestern saw a decrease in green power percentage. Saint Louis University and the University of Oklahoma both saw drastic changes in percentages in April, around the time Northeastern appeared on the list.
+    	</p></div></center>
+
+    	<!--ranking graph made from R for ranks 16-20-->
+    	<center><div><img src="16-20 Greenness over time.png" alt="Failed to display image" width="1000" height="500"></div></center>
+
+    	<!--Description of the above graph-->
+    	<center><div id="paragraph"><p>
+    		Only Ohio University saw a net increase out of all colleges in ranks 16 through 20. While other colleges began to see declines in green power percentage around the start of the pandemic, Ohio university only flatlined.
+    	</p></div></center>
+
+    	<!--ranking graph made from R for ranks 21-25-->
+    	<center><div><img src="21-25 Greenness over time.png" alt="Failed to display image" width="1000" height="500"></div></center>
+
+    	<!--Description of the above graph-->
+    	<center><div id="paragraph"><p>
+    		Tarrant County Colleges saw the third largest net increase in green power percentage of the top 30 colleges, behind Ohio University and the University of Arizona.
+    	</p></div></center>
+
+    	<!--ranking graph made from R for ranks 26-30-->
+    	<center><div><img src="26-30 Greenness over time.png" alt="Failed to display image" width="1000" height="500"></div></center>
+
+    	<!--Description of the above graph-->
+    	<center><div id="paragraph"><p>
+    		Of all colleges in the top 30, (behind the University of North Texas), American University saw the second largest drop in green percentage.
+    	</p></div></center>
+
+    	<!--Footer-->
+		<div class="footer">
+			<div class="footer_content">
+        		<h2>2021</h2>
+        		<h2>Kalamazoo College</h2>
+        	</div>
+    	</div>
+	</body>
+</html>

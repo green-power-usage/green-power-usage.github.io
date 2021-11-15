@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="styleSheet" href="styleSheet.css">
+		<title>Regression Analysis</title>
+	</head>
+	<body>
+		<!--Title-->
+		<h1>Green Power Usage Among North American College Campuses</h1>
+
+		<!--Subtitle-->
+		<h3>Regression Analysis</h3>
+
+		<!--Navbar with three pages-->
+		<div class="navbar">
+			<a href=MainPage.html>Home</a>
+			<a href=RankAnalysis.html>Rank Analysis</a>
+			<a href=CategoricalAnalysis.html>Categorical Analysis</a>
+			<a href=RegressionAnalysis.html>Regression Analysis</a>
+			<a href=EnvFactorAnalysis.html>Environmental Factor Analysis</a>
+			<a href=Sources.html>Sources</a>
+		</div>
+
+		<!--Regression analysis chart made with R Studio-->
+		<center><div><img src="regressionAnalysis.png" alt="Failed to display image" width="1000" height="500"></div></center>
+
+		<!--Description of the above graph-->
+		<center><div id="paragraph"><p>
+			This is a summary of the results of multiple linear regression models to predict the rank of colleges. We can see the coefficients of each variable included within the model as well as their standard errors and p-values. Gp_percent_energy_use is less significant than other variables in this analysis whereas the annual green power usage is the best predictor of rank in the model. Surprisingly, the latitude of where the college is located is a good predictor of rank in the United States. Colleges with a higher latitude rank lower than those with a lower latitude. This could potentially be because these places get less sunlight for solar energy. The model accurately predicts rank to some extent with a residual standard error of 4.551.
+		</p></div></center>
+
+		<!--Footer-->
+		<div class="footer">
+			<div class="footer_content">
+        		<h2>2021</h2>
+        		<h2>Kalamazoo College</h2>
+        	</div>
+    	</div>
+
+	</body>
+</html>
